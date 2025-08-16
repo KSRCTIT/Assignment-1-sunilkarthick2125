@@ -1,13 +1,10 @@
-// Question2.cs
-// Solutions for all the sub-questions in Question 2.
-
 using System;
 
 class Question2
 {
     static void Main(string[] args)
     {
-        // i) Calculator app for kids
+         i) Calculator app for kids
         int a = 10, b = 5;
         Console.WriteLine($"Total apples: {a + b}");
         Console.WriteLine($"Difference of pencils: {a - b}");
@@ -16,7 +13,7 @@ class Question2
         Console.WriteLine($"Leftover candies after equal distribution: {a % b}");
         Console.WriteLine();
 
-        // ii) Game score comparison
+         ii) Game score comparison
         int playerA = 20, playerB = 15;
         Console.WriteLine($"Player A scored more than B: {playerA > playerB}");
         Console.WriteLine($"Scores are equal: {playerA == playerB}");
@@ -24,7 +21,7 @@ class Question2
         Console.WriteLine($"Player B failed to beat A: {playerB <= playerA}");
         Console.WriteLine();
 
-        // iii) Login system
+         iii) Login system
         bool usernameValid = true;
         bool passwordValid = false;
         Console.WriteLine($"Login successful (&&): {usernameValid && passwordValid}");
@@ -37,7 +34,7 @@ class Question2
             Console.WriteLine("Access Denied");
         Console.WriteLine();
 
-        // iv) Quiz score updates
+         iv) Quiz score updates
         int score = 50;
         Console.WriteLine($"Start score: {score}");
         score += 10;
@@ -50,7 +47,7 @@ class Question2
         Console.WriteLine($"After penalty (/5): {score}");
         Console.WriteLine();
 
-        // v) Election booth eligibility
+         v) Election booth eligibility
         for (int i = 1; i <= 5; i++)
         {
             Console.Write($"Enter age of person {i}: ");
