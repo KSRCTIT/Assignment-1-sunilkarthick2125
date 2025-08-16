@@ -1,6 +1,3 @@
-// Question3.cs
-// Solutions for all the sub-questions in Question 3.
-
 using System;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -9,7 +6,7 @@ class Question3
 {
     static void Main(string[] args)
     {
-        // i) ATM PIN system
+       i) ATM PIN system
         int correctPin = 1234;
         int attempts = 0;
         bool accessGranted = false;
@@ -33,7 +30,7 @@ class Question3
             Console.WriteLine("Card Blocked");
         Console.WriteLine();
 
-        // ii) Multiplication table with retry
+        ii) Multiplication table with retry
         string tryAgain;
         do
         {
@@ -46,7 +43,7 @@ class Question3
         } while (tryAgain.ToUpper() == "Y");
         Console.WriteLine();
 
-        // iii) Electricity bill calculation
+        iii) Electricity bill calculation
         Console.Write("Enter units consumed: ");
         int units = Convert.ToInt32(Console.ReadLine());
         int bill = 0;
@@ -59,7 +56,7 @@ class Question3
         Console.WriteLine($"Total bill: ₹{bill}");
         Console.WriteLine();
 
-        // iv) Student score analysis
+         iv) Student score analysis
         int[] marks = new int[5];
         for (int i = 0; i < 5; i++)
         {
@@ -74,7 +71,7 @@ class Question3
             Console.WriteLine("Failed");
         Console.WriteLine();
 
-        // v) Name validation for ID cards
+       v) Name validation for ID cards
         Console.Write("Enter name for ID card: ");
         string name = Console.ReadLine();
         if (IsValidName(name))
